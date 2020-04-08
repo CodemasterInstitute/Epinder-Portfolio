@@ -371,6 +371,11 @@ nav ul {
           flex-direction: column;
 }
 
+.prj-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .splash {
   position: absolute;
   top: 0%;
@@ -455,10 +460,18 @@ nav ul {
 }
 
 footer {
-  background: #353333;
+  background: #333333;
   color: white;
   min-height: 10vh;
   padding: 0% 5%;
+}
+
+footer h4 {
+  padding-top: 1.5rem;
+}
+
+footer h4:hover {
+  color: #d6531f;
 }
 
 @media screen and (max-width: 768px) {

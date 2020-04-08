@@ -1,6 +1,13 @@
 footer {
-  background: rgb(53, 51, 51);
+  background: #333333;
   color: white;
   min-height: 10vh;
   padding: 0% 5%;
+
+  h4 {
+    padding-top: 1.5rem;
+    &:hover {
+      color: rgb(214, 83, 31);
+    }
+  }
 }
