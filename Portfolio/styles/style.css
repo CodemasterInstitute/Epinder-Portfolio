@@ -107,6 +107,16 @@ nav ul {
           flex: 1 1 40rem;
 }
 
+.btn-hover {
+  -webkit-transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.6s;
+}
+
+.btn-hover:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .intro {
   min-height: 90vh;
   width: 90%;
@@ -369,11 +379,15 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
 }
 
 .prj-img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
 }
 
 .splash {
