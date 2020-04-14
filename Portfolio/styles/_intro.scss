@@ -140,3 +140,9 @@ nav {
     transform: rotateY(30deg);
   }
 }
+.footer {
+  @include flex(space-between, center, row);
+  .icons-s img {
+    padding-left: 2rem;
+  }
+}
