@@ -25,7 +25,7 @@ nav {
 }
 
 .intro {
-  min-height: 90vh;
+  min-height: 80vh;
   width: 90%;
   margin: auto;
   flex-wrap: wrap;
@@ -145,5 +145,8 @@ nav {
   .icons-s img {
     padding-left: 2rem;
     cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
