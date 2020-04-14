@@ -329,6 +329,7 @@ nav ul {
 
 .footer .icons-s img {
   padding-left: 2rem;
+  cursor: pointer;
 }
 
 .projects {

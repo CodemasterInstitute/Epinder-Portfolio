@@ -144,5 +144,6 @@ nav {
   @include flex(space-between, center, row);
   .icons-s img {
     padding-left: 2rem;
+    cursor: pointer;
   }
 }
