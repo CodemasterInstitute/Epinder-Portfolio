@@ -155,9 +155,9 @@ nav ul {
   padding: 2rem 0rem;
 }
 
-.intro p {
+.intro-text p {
   width: 80%;
-  padding: 2rem;
+  padding: 5rem 0;
   color: linear-gradient(left, #38d39f, #38a4d3);
 }
 
