@@ -140,6 +140,16 @@ nav ul {
   display: inline-block;
 }
 
+.intro h2::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: ' ';
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 .intro h3 {
   font-size: 6rem;
   padding: 2rem 0rem;

@@ -26,7 +26,6 @@ nav {
   @include flex(space-between, center, row);
   h2 {
     font-family: 'Concert One', cursive;
-
     font-size: 5rem;
     padding-top: 2rem;
     background: $gradient;
